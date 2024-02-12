@@ -28,7 +28,7 @@ document.addEventListener("DOMContentLoaded", function(){
             todoItem.appendChild(deleteButton);
 
             
-            
+             
 
 
             todoItem.addEventListener('click' , toggleTodo); // Marcar como completada al hacer click en la tarea.
