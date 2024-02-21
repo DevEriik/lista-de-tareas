@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
+    background-color: #E9DAC4;
     margin: 0;
     padding: 0;
 }
@@ -8,7 +8,7 @@ body {
 .container {
     max-width: 600px;
     margin: 50px auto;
-    background-color: #fff;
+    background-color: #CFB2B0;
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     padding: 20px;
@@ -16,12 +16,13 @@ body {
 
 h1 {
     text-align: center;
-    color: #333;
+    color: #262626;
 }
 
 form { 
     display: flex;
     margin-bottom: 20px;
+    gap: 8px;
 }
 
 #todo-input {
@@ -35,7 +36,7 @@ form {
 button {
     padding: 10px 20px;
     font-size: 16px;
-    background-color: #005bff;
+    background-color: #ECA4B1;
     color: #fff;
     border: none;
     border-radius: 4px;
@@ -44,7 +45,7 @@ button {
 }
 
 button:hover {
-    background-color: #0056b3;
+    background-color: #eb8b9c;
 }
 
 .todo-container {
@@ -53,17 +54,15 @@ button:hover {
 }
 
 .delete-button {
-    margin-top: 5px;
-    background-color: #c82333;
+    background-color: #ECA4B1;
     color: #fff;
     border: none;
-    border-radius: 50%;
     padding: 6px 10px;
     cursor: pointer;
     transition: background-color 0.3s ease;
 }
 .delete-button:hover {
-    background-color: #c82333;
+    background-color: #eb8b9c;
 }
 
 ul {
@@ -74,6 +73,8 @@ ul {
 li {
     padding: 10px;
     border-bottom: 1px solid #ccc;
+    display: flex;
+    justify-content: space-between;
 }
 
 li:last-child {

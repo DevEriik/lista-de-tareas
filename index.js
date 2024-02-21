@@ -22,7 +22,7 @@ document.addEventListener("DOMContentLoaded", function(){
 
             //Agregar boton de eliminar
             const deleteButton = document.createElement("button");
-            deleteButton.innerText = "Eliminar";
+            deleteButton.innerText = "🗑️";
             deleteButton.classList.add("delete-button");
             deleteButton.addEventListener('click', deleteTodo);
             todoItem.appendChild(deleteButton);
